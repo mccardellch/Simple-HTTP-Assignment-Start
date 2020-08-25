@@ -1,9 +1,9 @@
-version: 2
+version: 1
 jobs:
  build:
   docker:
    # specify theversionyoudesirehere
-   -image: circleci/node:2
+   -image: circleci/node:1
  
  working_directory: ~/repo
  
